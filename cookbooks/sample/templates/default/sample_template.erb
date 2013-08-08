@@ -1,0 +1,13 @@
+param1 = <%= node.sample.param1 %>
+param2 = <%= node.sample.param2 %>
+param_array = [
+<% node.sample.param_array.each do |val| %>
+  <%= val %>
+<% end %>
+]
+platform = <%= node.platform %>
+ipaddress = <%= node.ipaddress %>
+fqdn = <%= node.fqdn %>
+memory = <%= node.memory.total %>
+os_version = <%= node.os_version %>
+perl version = <%= node.languages.perl.version %>

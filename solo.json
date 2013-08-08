@@ -1,0 +1,10 @@
+{
+    "sample": {
+        "param1": "hoge",
+        "param2": "huga",
+        "param_array": ["one","two","three"]
+    },
+    "run_list": [
+        "recipe[sample]"
+        ] 
+}
