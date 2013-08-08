@@ -1,1 +1,8 @@
 BPS社内勉強会用資料
+スライド: http://techracho.bpsinc.jp/yamasita-taisuke/2013_08_08/12681
+
+1. chefのインストール
+curl -L https://www.opscode.com/chef/install.sh | sudo bash
+
+2. chefの実行
+./chef-solo.sh
